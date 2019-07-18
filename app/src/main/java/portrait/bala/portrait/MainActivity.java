@@ -264,7 +264,7 @@ public class MainActivity extends AppCompatActivity {
         // 设置裁剪
         intent.putExtra("crop", "true");
 
-        // aspectX , aspectY :宽高的比例
+        // aspectX , aspectY :宽高的比例  圆形裁剪
         intent.putExtra("aspectX", 1);
         intent.putExtra("aspectY", 1);
 
